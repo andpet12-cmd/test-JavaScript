@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #5D86BD;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 400px;
+    max-width: 100%;
+}
+
+h1 {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+h4{
+    font-size: 0.6rem;
+    margin-bottom: 5px;
+    text-align: left;
+    color: rgba(32, 31, 31, 0.44);
+    font-family: Arial, sans-serif;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 6px;
+    border: 1px solid #afaaaa;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.textarea-group {
+    display: flex;
+    gap: 10px;
+}
+
+select {
+    flex: 1;
+    height: 170px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.buttons {
+    width: 60px;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+
+}
+
+button {
+    padding: 4px 8px;
+    border: 1.5px solid #ccc;
+    background-color: rgba(227, 220, 220, 0.73);
+    color: rgba(11, 10, 10, 0.64);
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 6px;
+    transition: transform 0.4s ease-in-out, background-color 0.4s ease;
+
+}
+.delete-button {
+    margin-top: 20px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: rgb(25, 23, 23);
+}
