@@ -9,7 +9,7 @@ function addPair() {
 
     // Перевірка правельного вводу
     if (!regex.test(pair)) {
-        alert('Не вірно введений формат! Введіть Name=Value.');
+        alert('Не вірно введений формат! Введіть Name=Value');
         return;
     }
 

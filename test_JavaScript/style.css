@@ -85,7 +85,6 @@ button {
     text-align: center;
     font-size: 6px;
     transition: transform 0.4s ease-in-out, background-color 0.4s ease;
-
 }
 .delete-button {
     margin-top: 20px;
