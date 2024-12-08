@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Test</h1>
+    <h4>Name/Value Pair</h4>
+
+    <div class="input-group">
+        <input id="nameValueInput" type="text" placeholder="Name=Value">
+        <button onclick="addPair()">Add</button>
+    </div>
+    <h4>Name/Value Pair List</h4>
+
+    <!-- Список і кнопки -->
+    <div class="textarea-group">
+        <select id="pairList" multiple></select>
+        <div class="buttons">
+            <button onclick="sortBy('name')">Sort by Name</button>
+            <button onclick="sortBy('value')">Sort by Value</button>
+            <button class="delete-button" onclick="deleteSelected()">Delete</button>
+            <script src="main.js"></script>
+        </div>
+    </div>
+</div>
+</body>
+</html>
